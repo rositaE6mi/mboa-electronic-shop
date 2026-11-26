@@ -4,7 +4,9 @@ Application e-commerce de vente de produits électroniques : catalogue par caté
 
 ## Un projet fil rouge
 
-MBOA Electronic Shop est le **projet fil rouge** d'une formation en programmation web backend avec **Spring Boot**. Je le construis **pas à pas avec les apprenants** : à chaque séance, nous ajoutons une nouvelle notion du cours (entités JPA, repositories, services, contrôleurs REST, DTO, validation…) et le dépôt est mis à jour au fur et à mesure.
+MBOA Electronic Shop est le **projet fil rouge** d'une formation en développement web full stack avec **Spring Boot** (backend) et **Angular** (frontend). Je le construis **pas à pas avec les apprenants** : à chaque séance, nous ajoutons une nouvelle notion du cours (entités JPA, repositories, services, contrôleurs REST, DTO, validation…) et le dépôt est mis à jour au fur et à mesure.
+
+Nous travaillons pour le moment sur la partie **Spring Boot**. La partie **Angular** viendra ensuite, dans le dossier `frontend/`.
 
 L'historique des commits suit donc la progression de la formation. Le projet n'est pas terminé : il évolue à chaque séance.
 
@@ -30,13 +32,13 @@ Entités prévues : `Utilisateur` (et ses rôles `Admin`, `Client`, `Livreur`), 
 - [ ] Validation des données et gestion des erreurs
 - [ ] Sécurité (authentification et rôles)
 
-**Frontend** : à venir.
+**Frontend (Angular)** : à venir, après la partie Spring Boot.
 
 ## Technologies
 
-- Java 17, Spring Boot, Spring Data JPA (Hibernate)
-- MySQL (avec XAMPP)
-- Maven
+- **Backend** : Java 17, Spring Boot, Spring Data JPA (Hibernate), Maven
+- **Base de données** : MySQL (avec XAMPP)
+- **Frontend** : Angular (à venir)
 
 ## Structure
 
@@ -48,7 +50,7 @@ mboaElectronicShop/
 │       ├── Repository/               accès aux données
 │       └── Service/                  logique métier (interfaces et implémentations)
 ├── docs/                             diagramme de classes
-└── frontend/                         à venir
+└── frontend/                         application Angular (à venir)
 ```
 
 ## Lancer le backend
